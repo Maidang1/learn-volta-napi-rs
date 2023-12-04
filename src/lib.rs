@@ -3,6 +3,7 @@
 mod config;
 pub mod install;
 pub mod uninstall;
+pub mod provision;
 
 #[macro_use]
 extern crate napi_derive;
